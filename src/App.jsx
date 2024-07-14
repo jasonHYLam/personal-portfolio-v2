@@ -1,4 +1,5 @@
 import "./App.css";
+import { Introduction } from "./components/Introduction";
 import { TechStack } from "./components/TechStack";
 import { ProjectsList } from "./components/projects/ProjectsList";
 
@@ -7,10 +8,9 @@ function App() {
     <>
       <header></header>
       {/* Introduction */}
-      <section></section>
+      <Introduction />
       {/* About me */}
       <section>
-        <p>I'm Jason, full-stack web dev.</p>
         <TechStack />
       </section>
       {/* Projects */}
