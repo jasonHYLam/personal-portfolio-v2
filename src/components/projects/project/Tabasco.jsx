@@ -1,6 +1,9 @@
+import tabascoLogo from "../../../assets/TabascoLogo.png";
+
 export function Tabasco() {
   return (
     <>
+      <img src={tabascoLogo} alt="" />
       <h2>Tabasco</h2>
       <p>A social media site based on Twitter and Pixiv.</p>
 
