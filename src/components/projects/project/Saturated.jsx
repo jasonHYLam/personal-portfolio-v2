@@ -1,3 +1,5 @@
+import saturated1 from "../../../assets/saturated1.png";
+
 export function Saturated() {
   return (
     <>
@@ -14,6 +16,15 @@ export function Saturated() {
         <li>Creating notes</li>
         <li>Tagging notes on image</li>
       </ul>
+
+      <img src={saturated1} alt="" />
+      <a href="https://saturated.netlify.app/login">Live link</a>
+      <a href="https://github.com/jasonHYLam/saturated-frontend/">
+        Frontend repo
+      </a>
+      <a href="https://github.com/jasonHYLam/saturated-backend/">
+        Backend repo
+      </a>
     </>
   );
 }
