@@ -11,6 +11,16 @@ export function Tabasco() {
         <li>Adding friends</li>
         <li>Testing APIs.</li>
       </ul>
+
+      <a href="https://tabasco.netlify.app/login" target="_blank">
+        Live link
+      </a>
+      <a href="https://github.com/jasonHYLam/Odinbook/" target="_blank">
+        Frontend repo
+      </a>
+      <a href="https://github.com/jasonHYLam/Odinbook-Server/" target="_blank">
+        Backend repo
+      </a>
     </>
   );
 }

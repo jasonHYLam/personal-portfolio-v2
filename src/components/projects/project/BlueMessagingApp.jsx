@@ -11,6 +11,22 @@ export function BlueMessagingApp() {
         <li>Adding friends</li>
         <li>Testing APIs</li>
       </ul>
+
+      <a href="https://blue-messaging-app.netlify.app/login" target="_blank">
+        Live link
+      </a>
+      <a
+        href="https://github.com/jasonHYLam/TOP-messaging-app-client/"
+        target="_blank"
+      >
+        Frontend repo
+      </a>
+      <a
+        href="https://github.com/jasonHYLam/TOP-messaging-app-backend/"
+        target="_blank"
+      >
+        Backend repo
+      </a>
     </>
   );
 }
