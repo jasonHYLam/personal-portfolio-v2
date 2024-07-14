@@ -1,8 +1,14 @@
+import { TechIcon } from "./techIcon/TechIcon";
+
 export function TechStack() {
   return (
     <>
       {/* JavaScript */}
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+      <TechIcon
+        techIcon={
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+        }
+      />
 
       {/* TypeScript */}
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />

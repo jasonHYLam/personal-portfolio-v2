@@ -1,4 +1,5 @@
 import "./App.css";
+import { TechStack } from "./components/TechStack";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* About me */}
       <section>
         <p>I'm Jason, full-stack web dev.</p>
+        <TechStack />
       </section>
       {/* Projects */}
       <section>
