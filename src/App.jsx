@@ -1,5 +1,6 @@
 import "./App.css";
 import { TechStack } from "./components/TechStack";
+import { ProjectsList } from "./components/projects/ProjectsList";
 
 function App() {
   return (
@@ -14,13 +15,7 @@ function App() {
       </section>
       {/* Projects */}
       <section>
-        <article>
-          <p>Saturated</p>
-          <p>
-            An educational art app to help artists improve their observation
-            skills and expand their visual library.
-          </p>
-        </article>
+        <ProjectsList />
       </section>
       {/* Contact me */}
       <section>

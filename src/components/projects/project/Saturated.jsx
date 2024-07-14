@@ -1,9 +1,11 @@
 import saturated1 from "../../../assets/saturated1.png";
+import saturatedLogo from "../../../assets/SaturatedLogo.png";
 
 export function Saturated() {
   return (
     <>
       <h2>Saturated</h2>
+      <img src={saturatedLogo} alt="" />
       <p>
         An educational art app to help artists improve their observational
         skills and expand their visual library.
@@ -18,11 +20,19 @@ export function Saturated() {
       </ul>
 
       <img src={saturated1} alt="" />
-      <a href="https://saturated.netlify.app/login">Live link</a>
-      <a href="https://github.com/jasonHYLam/saturated-frontend/">
+      <a href="https://saturated.netlify.app/login" target="_blank">
+        Live link
+      </a>
+      <a
+        href="https://github.com/jasonHYLam/saturated-frontend/"
+        target="_blank"
+      >
         Frontend repo
       </a>
-      <a href="https://github.com/jasonHYLam/saturated-backend/">
+      <a
+        href="https://github.com/jasonHYLam/saturated-backend/"
+        target="_blank"
+      >
         Backend repo
       </a>
     </>
