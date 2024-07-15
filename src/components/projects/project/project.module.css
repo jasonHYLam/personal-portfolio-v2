@@ -28,5 +28,6 @@
 
 .linkIcon {
   height: 1.6rem;
+  color: var(--accent-color);
 }
 
