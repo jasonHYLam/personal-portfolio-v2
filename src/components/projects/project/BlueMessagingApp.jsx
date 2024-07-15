@@ -7,7 +7,7 @@ export function BlueMessagingApp() {
   return (
     <>
       <h2>Blue Messaging App</h2>
-      <section className={styles.projectContainer}>
+      <section className={styles.projectContents}>
         <img className={styles.projectImage} src={blueMessagingApp1} alt="" />
         <section className={styles.informationContainer}>
           <p>A messaging app based on Discord.</p>

@@ -1,6 +1,7 @@
-.projectContainer {
+.projectContents {
   display: flex;
   margin-bottom: 10rem;
+  position: relative;
 }
 
 .informationContainer {
@@ -17,6 +18,9 @@
 .logo {
   height: 10rem;
   width: 10rem;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .linkIcon {
