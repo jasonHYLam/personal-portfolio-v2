@@ -28,7 +28,7 @@ export function Saturated() {
           </section>
           <section>
             <a href="https://saturated.netlify.app/login" target="_blank">
-              <img src={openNewLinkIcon} alt="" />
+              <img className={styles.linkIcon} src={openNewLinkIcon} alt="" />
             </a>
             <a
               href="https://github.com/jasonHYLam/saturated-frontend/"

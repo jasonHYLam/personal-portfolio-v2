@@ -24,7 +24,7 @@ export function BlueMessagingApp() {
               href="https://blue-messaging-app.netlify.app/login"
               target="_blank"
             >
-              <img src={openNewLinkIcon} alt="" />
+              <img className={styles.linkIcon} src={openNewLinkIcon} alt="" />
             </a>
             <a
               href="https://github.com/jasonHYLam/TOP-messaging-app-client/"

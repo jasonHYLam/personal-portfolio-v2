@@ -22,7 +22,7 @@ export function Tabasco() {
           </ul>
           <section className={styles.informationContainer}>
             <a href="https://tabasco.netlify.app/login" target="_blank">
-              <img src={openNewLinkIcon} alt="" />
+              <img className={styles.linkIcon} src={openNewLinkIcon} alt="" />
             </a>
             <a href="https://github.com/jasonHYLam/Odinbook/" target="_blank">
               Frontend repo
