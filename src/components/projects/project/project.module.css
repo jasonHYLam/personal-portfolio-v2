@@ -1,0 +1,8 @@
+.projectContainer {
+  display: flex
+}
+
+.informationContainer {
+  display: flex;
+  flex-direction: column;
+}
