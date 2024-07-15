@@ -1,8 +1,9 @@
+import { EMAIL } from "../helpers/constants";
 export function Contact() {
   return (
     <>
       <section>
-        <p>I'd love to hear from you.</p>
+        <p>I'd love to hear from you, do get in touch!</p>
         <a href="https://github.com/jasonHYLam" target="_blank">
           GitHub
         </a>
@@ -12,7 +13,7 @@ export function Contact() {
         >
           LinkedIn
         </a>
-        <form action=""></form>
+        <a href={`mailto:${EMAIL}`}>Email</a>
       </section>
     </>
   );
