@@ -4,7 +4,7 @@ export function Tabasco() {
   return (
     <>
       <img src={tabascoLogo} alt="" />
-      <h2>Tabasco</h2>
+      <h2>Tabasco (social media site)</h2>
       <p>A social media site based on Twitter and Pixiv.</p>
 
       <h3>Features</h3>

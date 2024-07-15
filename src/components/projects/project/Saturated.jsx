@@ -4,7 +4,7 @@ import saturatedLogo from "../../../assets/SaturatedLogo.png";
 export function Saturated() {
   return (
     <>
-      <h2>Saturated</h2>
+      <h2>Saturated (Education art web app)</h2>
       <img src={saturatedLogo} alt="" />
       <p>
         An educational art app to help artists improve their observational
