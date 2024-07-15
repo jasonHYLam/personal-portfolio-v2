@@ -3,11 +3,12 @@ import { Contact } from "./components/Contact";
 import { Introduction } from "./components/introduction/Introduction";
 import { TechStack } from "./components/techStack/TechStack";
 import { ProjectsList } from "./components/projects/ProjectsList";
+import { Navbar } from "./components/navbar/Navbar";
 
 function App() {
   return (
     <>
-      <header></header>
+      <Navbar />
       <Introduction />
       <TechStack />
       <ProjectsList />
