@@ -9,7 +9,7 @@ export function BlueMessagingApp() {
         <li>Image uploads</li>
         <li>Creating chats and groupchats with invited friends</li>
         <li>Adding friends</li>
-        <li>Testing APIs</li>
+        <li>Testing APIs using SuperTest, MongoMemoryServer and Jest</li>
       </ul>
 
       <a href="https://blue-messaging-app.netlify.app/login" target="_blank">
