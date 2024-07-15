@@ -3,6 +3,7 @@ export function Contact() {
   return (
     <>
       <section>
+        <h1>Contact</h1>
         <p>I'd love to hear from you, do get in touch!</p>
         <a href="https://github.com/jasonHYLam" target="_blank">
           GitHub

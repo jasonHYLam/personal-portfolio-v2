@@ -1,5 +1,7 @@
 import styles from "./project.module.css";
 import blueMessagingApp1 from "../../../assets/blueMessagingApp1.png";
+import gitHubIcon from "../../../assets/github-mark.svg";
+import openNewLinkIcon from "../../../assets/open-in-new.svg";
 
 export function BlueMessagingApp() {
   return (
@@ -22,7 +24,7 @@ export function BlueMessagingApp() {
               href="https://blue-messaging-app.netlify.app/login"
               target="_blank"
             >
-              Live link
+              <img src={openNewLinkIcon} alt="" />
             </a>
             <a
               href="https://github.com/jasonHYLam/TOP-messaging-app-client/"
