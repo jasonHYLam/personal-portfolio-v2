@@ -1,7 +1,10 @@
+.projectContainer {
+  position: relative;
+}
+
 .projectContents {
   display: flex;
   margin-bottom: 10rem;
-  position: relative;
 }
 
 .informationContainer {
