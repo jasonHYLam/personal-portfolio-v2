@@ -1,7 +1,6 @@
 import styles from "./project.module.css";
 import tabascoLogo from "../../../assets/TabascoLogo.png";
 import tabasco1 from "../../../assets/tabasco1.png";
-import openNewLinkIcon from "../../../assets/open-in-new.svg";
 import { OpenInNewIcon } from "../../icons/OpenInNewIcon";
 
 export function Tabasco() {

@@ -8,6 +8,7 @@ export function Saturated() {
   return (
     <>
       <section className={styles.projectContainer}>
+        <h2>Featured project</h2>
         <h2>Saturated (Education art web app)</h2>
 
         <img className={styles.logo} src={saturatedLogo} alt="" />
