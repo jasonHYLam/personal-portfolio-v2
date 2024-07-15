@@ -8,6 +8,11 @@
 }
 
 .projectImage {
-  height: 25em;
+  height: 25rem;
   width: auto;
+}
+
+.logo {
+  height: 10rem;
+  width: 10rem;
 }

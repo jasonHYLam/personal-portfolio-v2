@@ -6,7 +6,7 @@ export function Tabasco() {
   return (
     <>
       <h2>Tabasco (social media site)</h2>
-      <img src={tabascoLogo} alt="" />
+      <img className={styles.logo} src={tabascoLogo} alt="" />
       <section className={styles.projectContainer}>
         <img className={styles.projectImage} src={tabasco1} alt="" />
         <section>
