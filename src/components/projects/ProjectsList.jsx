@@ -6,9 +6,11 @@ export function ProjectsList() {
   return (
     <>
       <h1>Projects</h1>
-      <Saturated />
-      <Tabasco />
-      <BlueMessagingApp />
+      <section>
+        <Saturated />
+        <Tabasco />
+        <BlueMessagingApp />
+      </section>
     </>
   );
 }

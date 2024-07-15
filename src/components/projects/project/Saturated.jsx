@@ -15,16 +15,10 @@ export function Saturated() {
           <section>
             <p>
               An educational art app to help artists improve their observational
-              skills and expand their visual library.
+              skills and expand their visual library. Features image analysis
+              using Canvas API, creating notes, and the ability to tag notes
+              onto the image.
             </p>
-
-            <h3>Features</h3>
-            <ul>
-              <li>Image uploads</li>
-              <li>Image analysis</li>
-              <li>Creating notes</li>
-              <li>Tagging notes on image</li>
-            </ul>
           </section>
           <section>
             <a href="https://saturated.netlify.app/login" target="_blank">
