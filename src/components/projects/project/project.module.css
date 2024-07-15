@@ -6,3 +6,8 @@
   display: flex;
   flex-direction: column;
 }
+
+.projectImage {
+  height: 25em;
+  width: auto;
+}

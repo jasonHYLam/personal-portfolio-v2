@@ -9,7 +9,7 @@ export function Saturated() {
 
       <img src={saturatedLogo} alt="" />
       <section className={styles.projectContainer}>
-        <img src={saturated1} alt="" />
+        <img className={styles.projectImage} src={saturated1} alt="" />
         <section className={styles.informationContainer}>
           <section>
             <p>

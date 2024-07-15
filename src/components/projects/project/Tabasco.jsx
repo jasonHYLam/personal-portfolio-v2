@@ -8,7 +8,7 @@ export function Tabasco() {
       <h2>Tabasco (social media site)</h2>
       <img src={tabascoLogo} alt="" />
       <section className={styles.projectContainer}>
-        <img src={tabasco1} alt="" />
+        <img className={styles.projectImage} src={tabasco1} alt="" />
         <section>
           <p>A social media site based on Twitter and Pixiv.</p>
 
