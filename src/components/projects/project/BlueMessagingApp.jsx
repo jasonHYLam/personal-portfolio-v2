@@ -2,6 +2,7 @@ import styles from "./project.module.css";
 import blueMessagingApp1 from "../../../assets/blueMessagingApp1.png";
 import gitHubIcon from "../../../assets/github-mark.svg";
 import openNewLinkIcon from "../../../assets/open-in-new.svg";
+import { OpenInNewIcon } from "../../icons/OpenInNewIcon";
 
 export function BlueMessagingApp() {
   return (
@@ -25,7 +26,8 @@ export function BlueMessagingApp() {
                 href="https://blue-messaging-app.netlify.app/login"
                 target="_blank"
               >
-                <img className={styles.linkIcon} src={openNewLinkIcon} alt="" />
+                <svg />
+                <OpenInNewIcon />
               </a>
               <a
                 href="https://github.com/jasonHYLam/TOP-messaging-app-client/"

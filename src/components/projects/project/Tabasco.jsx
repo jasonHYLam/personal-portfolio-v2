@@ -2,6 +2,7 @@ import styles from "./project.module.css";
 import tabascoLogo from "../../../assets/TabascoLogo.png";
 import tabasco1 from "../../../assets/tabasco1.png";
 import openNewLinkIcon from "../../../assets/open-in-new.svg";
+import { OpenInNewIcon } from "../../icons/OpenInNewIcon";
 
 export function Tabasco() {
   return (
@@ -23,7 +24,7 @@ export function Tabasco() {
             </ul>
             <section>
               <a href="https://tabasco.netlify.app/login" target="_blank">
-                <img className={styles.linkIcon} src={openNewLinkIcon} alt="" />
+                <OpenInNewIcon />
               </a>
               <a href="https://github.com/jasonHYLam/Odinbook/" target="_blank">
                 Frontend repo

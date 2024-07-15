@@ -24,7 +24,6 @@ export function Saturated() {
             </section>
             <section>
               <a href="https://saturated.netlify.app/login" target="_blank">
-                {/* <img className={styles.linkIcon} src={openNewLinkIcon} alt="" /> */}
                 <OpenInNewIcon />
               </a>
               <a
