@@ -3,8 +3,8 @@ import tabascoLogo from "../../../assets/TabascoLogo.png";
 export function Tabasco() {
   return (
     <>
-      <img src={tabascoLogo} alt="" />
       <h2>Tabasco (social media site)</h2>
+      <img src={tabascoLogo} alt="" />
       <p>A social media site based on Twitter and Pixiv.</p>
 
       <h3>Features</h3>

@@ -1,7 +1,7 @@
 export function Introduction() {
   return (
     <>
-      <p>I'm Jason, full-stack web dev.</p>
+      <p>I'm Jason, a full-stack web developer based in London.</p>
       <p>
         I recently graduated from the University of Bath studying Civil
         Engineering.
