@@ -2,6 +2,7 @@ import styles from "./contact.module.css";
 import { EMAIL } from "../../helpers/constants";
 import { GithubIcon } from "../icons/GithubIcon";
 import { EmailIcon } from "../icons/EmailIcon";
+import { LinkedinIcon } from "../icons/LinkedinIcon";
 export function Contact() {
   return (
     <>
@@ -16,7 +17,7 @@ export function Contact() {
             href="https://www.linkedin.com/in/jason-lam-855681194/"
             target="_blank"
           >
-            LinkedIn
+            <LinkedinIcon />
           </a>
           <a href={`mailto:${EMAIL}`}>
             <EmailIcon />
