@@ -42,6 +42,10 @@
   gap: 1rem;
 }
 
+.techStack > * {
+  color: var(--sub-text-color);
+}
+
 .links {
   display: flex;
   gap: 1rem;

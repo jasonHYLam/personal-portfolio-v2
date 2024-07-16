@@ -10,7 +10,7 @@
   --accent-color: rgb(43, 74, 255);
   --sub-accent-color: rgb(82, 108, 255);
   --bold-black: black;
-  --sub-text-color: #485967;
+  --sub-text-color: #788590;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,9 +25,10 @@ body, * {
 
 a {
   font-weight: 500;
-  color: black;
+  color: var(--sub-accent-color);
   text-decoration: inherit;
   display: inline;
+  transition: color 0.2s;
 }
 a:hover {
   color: var(--accent-color);
