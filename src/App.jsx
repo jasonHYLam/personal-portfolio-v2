@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import { Contact } from "./components/Contact";
 import { Introduction } from "./components/introduction/Introduction";
 import { TechStack } from "./components/techStack/TechStack";
@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
+
       <Introduction />
       <TechStack />
       <ProjectsList />

@@ -24,6 +24,11 @@
   position: absolute;
   right: 0;
   top: 0;
+  transition: filter 0.2s;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .linkIcon {
