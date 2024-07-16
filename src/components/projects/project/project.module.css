@@ -22,7 +22,7 @@
 .logo {
   height: 10rem;
   width: 10rem;
-  transition: filter 0.2s;
+  transition: filter 0.5s;
   position: absolute;
   right: 0;
   top: 0;
