@@ -1,7 +1,6 @@
 import styles from "./project.module.css";
 import blueMessagingApp1 from "../../../assets/blueMessagingApp1.png";
 import gitHubIcon from "../../../assets/github-mark.svg";
-import openNewLinkIcon from "../../../assets/open-in-new.svg";
 import { OpenInNewIcon } from "../../icons/OpenInNewIcon";
 
 export function BlueMessagingApp() {
@@ -12,15 +11,13 @@ export function BlueMessagingApp() {
         <section className={styles.projectContents}>
           <img className={styles.projectImage} src={blueMessagingApp1} alt="" />
           <section className={styles.informationContainer}>
-            <p>A messaging app based on Discord.</p>
+            <p>
+              A messaging app based on Discord. Create an account, add your
+              friends, and invite them to groupchats. You can send messages and
+              images. APIs have been tested with SuperTest, MongoMemoryServer
+              and Jest.
+            </p>
 
-            <h3>Features</h3>
-            <ul>
-              <li>Image uploads</li>
-              <li>Creating chats and groupchats with invited friends</li>
-              <li>Adding friends</li>
-              <li>Testing APIs using SuperTest, MongoMemoryServer and Jest</li>
-            </ul>
             <section>
               <a
                 href="https://blue-messaging-app.netlify.app/login"
