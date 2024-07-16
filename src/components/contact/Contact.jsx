@@ -1,6 +1,7 @@
 import styles from "./contact.module.css";
 import { EMAIL } from "../../helpers/constants";
 import { GithubIcon } from "../icons/GithubIcon";
+import { EmailIcon } from "../icons/EmailIcon";
 export function Contact() {
   return (
     <>
@@ -17,7 +18,9 @@ export function Contact() {
           >
             LinkedIn
           </a>
-          <a href={`mailto:${EMAIL}`}>Email</a>
+          <a href={`mailto:${EMAIL}`}>
+            <EmailIcon />
+          </a>
         </section>
       </section>
     </>
