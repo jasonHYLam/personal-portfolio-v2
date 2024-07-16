@@ -1,6 +1,6 @@
 import styles from "./project.module.css";
+import blueMessagingAppLogo from "../../../assets/blueMessagingAppLogo.png";
 import blueMessagingApp1 from "../../../assets/blueMessagingApp1.png";
-import gitHubIcon from "../../../assets/github-mark.svg";
 import { OpenInNewIcon } from "../../icons/OpenInNewIcon";
 
 export function BlueMessagingApp() {
@@ -9,6 +9,12 @@ export function BlueMessagingApp() {
       <section className={styles.projectContainer}>
         <h2>Blue Messaging App</h2>
         <section className={styles.projectContents}>
+          <a
+            href="https://blue-messaging-app.netlify.app/login"
+            target="_blank"
+          >
+            <img className={styles.logo} src={blueMessagingAppLogo} alt="" />
+          </a>
           <img className={styles.projectImage} src={blueMessagingApp1} alt="" />
           <section className={styles.informationContainer}>
             <p>
