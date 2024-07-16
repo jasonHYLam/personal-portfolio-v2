@@ -8,6 +8,7 @@
   background-color: #ffffff;
 
   --accent-color: rgb(43, 74, 255);
+  --sub-accent-color: rgb(82, 108, 255);
   --bold-black: black;
   --sub-text-color: #485967;
 
@@ -43,6 +44,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h2 {
+  font-size: 2.2rem;
 }
 
 button {
