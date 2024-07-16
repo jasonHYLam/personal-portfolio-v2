@@ -9,10 +9,7 @@ export function BlueMessagingApp() {
       <section className={styles.projectContainer}>
         <h2>Blue Messaging App</h2>
         <section className={styles.projectContents}>
-          <a
-            href="https://blue-messaging-app.netlify.app/login"
-            target="_blank"
-          >
+          <a href="https://blue-messaging-app.netlify.app/" target="_blank">
             <img className={styles.logo} src={blueMessagingAppLogo} alt="" />
           </a>
           <img className={styles.projectImage} src={blueMessagingApp1} alt="" />
@@ -34,10 +31,7 @@ export function BlueMessagingApp() {
             </section>
 
             <section className={styles.links}>
-              <a
-                href="https://blue-messaging-app.netlify.app/login"
-                target="_blank"
-              >
+              <a href="https://blue-messaging-app.netlify.app/" target="_blank">
                 <OpenInNewIcon />
               </a>
               <a

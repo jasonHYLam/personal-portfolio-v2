@@ -9,7 +9,7 @@ export function Tabasco() {
       <section className={styles.projectContainer}>
         <h2>Tabasco (social media site)</h2>
         <section className={styles.projectContents}>
-          <a href="https://tabasco.netlify.app/login" target="_blank">
+          <a href="https://tabasco.netlify.app/" target="_blank">
             <img className={styles.logo} src={tabascoLogo} alt="" />
           </a>
 
@@ -35,7 +35,7 @@ export function Tabasco() {
             </section>
 
             <section className={styles.links}>
-              <a href="https://tabasco.netlify.app/login" target="_blank">
+              <a href="https://tabasco.netlify.app/" target="_blank">
                 <OpenInNewIcon />
               </a>
               <a href="https://github.com/jasonHYLam/Odinbook/" target="_blank">
