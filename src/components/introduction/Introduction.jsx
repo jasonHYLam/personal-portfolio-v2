@@ -3,10 +3,12 @@ export function Introduction() {
   return (
     <>
       <section className={styles.introduction}>
-        <h2>Hello</h2>
+        <h2>Hello, I'm</h2>
         <p>
-          I'm <h1 className={styles.large}>Jason</h1>, a{" "}
-          <h1 className={styles.large}>full-stack web developer </h1>based in
+          <h1 className={`${styles.large} ${styles.accent}`}>Jason.</h1>
+        </p>
+        <p>
+          <h1 className={styles.large}>Full-stack web developer </h1>based in
           London.
         </p>
         <p>

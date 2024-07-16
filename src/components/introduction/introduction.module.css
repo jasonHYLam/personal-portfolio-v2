@@ -4,6 +4,10 @@
 }
 
 .large {
-  font-size: 5rem;
+  font-size: 4.2rem;
   display: inline;
+}
+
+.accent {
+  color: var(--accent-color);
 }
