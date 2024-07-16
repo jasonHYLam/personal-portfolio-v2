@@ -19,6 +19,7 @@ export function Introduction() {
           Odin Project. I'm more experienced with JavaScript but I've recently
           picked up C#.
         </p>
+        <p>Check out what I've done!</p>
       </section>
     </>
   );

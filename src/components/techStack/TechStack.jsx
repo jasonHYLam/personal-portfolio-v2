@@ -4,91 +4,127 @@ import { TechIcon } from "../techIcon/TechIcon";
 export function TechStack() {
   return (
     <>
-      <p>Things I've used</p>
+      <p>My current tech stack</p>
       {/* JavaScript */}
       <section className={styles.techStack}>
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            }
+          />
+          <p>JavaScript</p>
+        </article>
 
         {/* TypeScript */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+            }
+          />
+          <p>TypeScript</p>
+        </article>
 
         {/* HTML */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+            }
+          />
+          <p>HTML</p>
+        </article>
 
         {/* CSS */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
+            }
+          />
+          <p>CSS</p>
+        </article>
 
         {/* React */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+            }
+          />
+          <p>React</p>
+        </article>
 
         {/* NodeJS */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+            }
+          />
+          <p>NodeJS</p>
+        </article>
 
         {/* ExpressJS */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
+            }
+          />
+          <p>Express</p>
+        </article>
 
         {/* C# */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" />
+            }
+          />
+          <p>C#</p>
+        </article>
 
         {/* .NET */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-plain.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-plain.svg" />
+            }
+          />
+          <p>.NET</p>
+        </article>
 
         {/* MongoDB */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+            }
+          />
+          <p>MongoDB</p>
+        </article>
 
         {/* PostgreSQL */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+            }
+          />
+          <p>PostgreSQL</p>
+        </article>
 
         {/* Azure */}
-        <TechIcon
-          techIcon={
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-plain.svg" />
-          }
-        />
+        <article>
+          <TechIcon
+            techIcon={
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-plain.svg" />
+            }
+          />
+          <p>Azure</p>
+        </article>
       </section>
     </>
   );

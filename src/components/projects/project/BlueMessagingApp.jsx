@@ -24,6 +24,7 @@ export function BlueMessagingApp() {
               <span>NodeJS</span>
               <span>Express</span>
               <span>MongoDB</span>
+              <span>PassportJS</span>
             </section>
 
             <section className={styles.links}>
