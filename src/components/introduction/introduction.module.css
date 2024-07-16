@@ -1,7 +1,9 @@
 .introduction {
   min-height: 100svh;
+  padding-top: 10rem;
 }
 
 .large {
   font-size: 5rem;
+  display: inline;
 }
