@@ -1,7 +1,6 @@
 import saturated1 from "../../../assets/saturated1.png";
 import saturatedLogo from "../../../assets/SaturatedLogo.png";
 import styles from "./project.module.css";
-import openNewLinkIcon from "../../../assets/open-in-new.svg";
 import { OpenInNewIcon } from "../../icons/OpenInNewIcon";
 
 export function Saturated() {
@@ -11,7 +10,9 @@ export function Saturated() {
         <h2>Featured project</h2>
         <h2>Saturated (Education art web app)</h2>
 
-        <img className={styles.logo} src={saturatedLogo} alt="" />
+        <a href="https://saturated.netlify.app/login" target="_blank">
+          <img className={styles.logo} src={saturatedLogo} alt="" />
+        </a>
         <section className={styles.projectContents}>
           <img className={styles.projectImage} src={saturated1} alt="" />
           <section className={styles.informationContainer}>

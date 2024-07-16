@@ -22,10 +22,10 @@
 .logo {
   height: 10rem;
   width: 10rem;
+  transition: filter 0.2s;
   position: absolute;
   right: 0;
   top: 0;
-  transition: filter 0.2s;
 }
 
 .logo:hover {

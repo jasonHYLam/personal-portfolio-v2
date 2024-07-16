@@ -9,7 +9,10 @@ export function Tabasco() {
       <section className={styles.projectContainer}>
         <h2>Tabasco (social media site)</h2>
         <section className={styles.projectContents}>
-          <img className={styles.logo} src={tabascoLogo} alt="" />
+          <a href="https://tabasco.netlify.app/login" target="_blank">
+            <img className={styles.logo} src={tabascoLogo} alt="" />
+          </a>
+
           <img className={styles.projectImage} src={tabasco1} alt="" />
           <section className={styles.informationContainer}>
             <p>
