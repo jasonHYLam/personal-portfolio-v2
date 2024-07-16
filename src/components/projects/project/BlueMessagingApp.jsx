@@ -18,6 +18,14 @@ export function BlueMessagingApp() {
               and Jest.
             </p>
 
+            <section className={styles.techStack}>
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>NodeJS</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+            </section>
+
             <section className={styles.links}>
               <a
                 href="https://blue-messaging-app.netlify.app/login"
