@@ -12,15 +12,15 @@ export function Tabasco() {
           <img className={styles.logo} src={tabascoLogo} alt="" />
           <img className={styles.projectImage} src={tabasco1} alt="" />
           <section className={styles.informationContainer}>
-            <p>A social media site based on Twitter and Pixiv.</p>
+            <p>
+              A social media / art post site based on Twitter and Pixiv. Users
+              can create posts with image uploads, follow other users and view
+              their posts and leave comments. Users can like and bookmark posts,
+              as well as create additional tags. Features API testing with
+              SuperTest, MongoMemoryServer and Jest, and frontend tests with
+              Vitest.
+            </p>
 
-            <h3>Features</h3>
-            <ul>
-              <li>Image uploads</li>
-              <li>Creating/liking posts</li>
-              <li>Adding friends</li>
-              <li>Testing APIs with SuperTest, MongoMemoryServer and Jest</li>
-            </ul>
             <section className={styles.techStack}>
               <span>React</span>
               <span>TypeScript</span>
@@ -29,6 +29,7 @@ export function Tabasco() {
               <span>Express</span>
               <span>MongoDB</span>
             </section>
+
             <section className={styles.links}>
               <a href="https://tabasco.netlify.app/login" target="_blank">
                 <OpenInNewIcon />
