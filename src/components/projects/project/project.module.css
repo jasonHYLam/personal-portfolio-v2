@@ -1,10 +1,11 @@
 .projectContainer {
   position: relative;
+  padding-top: 5rem;
 }
 
 .projectContents {
   display: flex;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .informationContainer {

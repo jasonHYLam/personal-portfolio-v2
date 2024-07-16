@@ -7,7 +7,7 @@ export function Saturated() {
   return (
     <>
       <section className={styles.projectContainer}>
-        <h2>Featured project</h2>
+        <h3>Featured project (^.^)</h3>
         <h2>Saturated (Education art web app)</h2>
 
         <a href="https://saturated.netlify.app/login" target="_blank">
