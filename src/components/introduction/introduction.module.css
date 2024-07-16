@@ -1,6 +1,8 @@
 .introduction {
   min-height: 100svh;
   padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .large {
@@ -18,4 +20,8 @@
 
 .textbox {
   width: 30rem;
+}
+
+.centerAlign {
+  align-self: center;
 }
