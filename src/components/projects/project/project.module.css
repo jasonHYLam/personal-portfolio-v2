@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   width: 20rem;
+  gap: 3rem;
 }
 
 .projectImage {
@@ -36,3 +37,12 @@
   color: var(--accent-color);
 }
 
+.techStack {
+  display: flex;
+  gap: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}

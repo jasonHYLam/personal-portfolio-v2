@@ -23,7 +23,17 @@ export function Saturated() {
                 to tag notes onto the image.
               </p>
             </section>
-            <section>
+
+            <section className={styles.techStack}>
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Canvas API</span>
+              <span>C#</span>
+              <span>ASP.NET</span>
+              <span>Azure</span>
+            </section>
+
+            <section className={styles.links}>
               <a href="https://saturated.netlify.app/login" target="_blank">
                 <OpenInNewIcon />
               </a>
@@ -39,14 +49,6 @@ export function Saturated() {
               >
                 Backend repo
               </a>
-              <section>
-                <span>React</span>
-                <span>TypeScript</span>
-                <span>Canvas API</span>
-                <span>C#</span>
-                <span>ASP.NET</span>
-                <span>Azure</span>
-              </section>
             </section>
           </section>
         </section>
