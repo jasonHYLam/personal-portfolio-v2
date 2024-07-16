@@ -4,9 +4,7 @@ export function Introduction() {
     <>
       <section className={styles.introduction}>
         <h2>Hello, I'm</h2>
-        <p>
-          <h1 className={`${styles.large} ${styles.accent}`}>Jason.</h1>
-        </p>
+        <h1 className={`${styles.large} ${styles.accent}`}>Jason.</h1>
         <p>
           <h1 className={`${styles.large} ${styles.bold}`}>
             Full-stack web developer{" "}
