@@ -21,7 +21,7 @@ export function Tabasco() {
               <li>Adding friends</li>
               <li>Testing APIs with SuperTest, MongoMemoryServer and Jest</li>
             </ul>
-            <section>
+            <section className={styles.links}>
               <a href="https://tabasco.netlify.app/login" target="_blank">
                 <OpenInNewIcon />
               </a>

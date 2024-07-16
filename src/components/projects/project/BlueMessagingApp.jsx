@@ -18,12 +18,11 @@ export function BlueMessagingApp() {
               and Jest.
             </p>
 
-            <section>
+            <section className={styles.links}>
               <a
                 href="https://blue-messaging-app.netlify.app/login"
                 target="_blank"
               >
-                <svg />
                 <OpenInNewIcon />
               </a>
               <a
