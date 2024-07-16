@@ -4,127 +4,139 @@ import { TechIcon } from "../techIcon/TechIcon";
 export function TechStack() {
   return (
     <>
-      <p>My current tech stack</p>
-      {/* JavaScript */}
-      <section className={styles.techStack}>
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-            }
-          />
-          <p>JavaScript</p>
-        </article>
+      <section className={styles.techStackSection}>
+        <h2>My current tech stack</h2>
+        <section className={styles.techStack}>
+          {/* JavaScript */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+              }
+            />
+            <p className={styles.techTitle}>JavaScript</p>
+          </article>
 
-        {/* TypeScript */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-            }
-          />
-          <p>TypeScript</p>
-        </article>
+          {/* TypeScript */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+              }
+            />
+            <p className={styles.techTitle}>TypeScript</p>
+          </article>
 
-        {/* HTML */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-            }
-          />
-          <p>HTML</p>
-        </article>
+          {/* HTML */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+              }
+            />
+            <p className={styles.techTitle}>HTML</p>
+          </article>
 
-        {/* CSS */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
-            }
-          />
-          <p>CSS</p>
-        </article>
+          {/* CSS */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
+              }
+            />
+            <p className={styles.techTitle}>CSS</p>
+          </article>
 
-        {/* React */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-            }
-          />
-          <p>React</p>
-        </article>
+          {/* React */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+              }
+            />
+            <p className={styles.techTitle}>React</p>
+          </article>
 
-        {/* NodeJS */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-            }
-          />
-          <p>NodeJS</p>
-        </article>
+          {/* NodeJS */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+              }
+            />
+            <p className={styles.techTitle}>NodeJS</p>
+          </article>
 
-        {/* ExpressJS */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
-            }
-          />
-          <p>Express</p>
-        </article>
+          {/* ExpressJS */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
+              }
+            />
+            <p className={styles.techTitle}>Express</p>
+          </article>
 
-        {/* C# */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" />
-            }
-          />
-          <p>C#</p>
-        </article>
+          {/* C# */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" />
+              }
+            />
+            <p className={styles.techTitle}>C#</p>
+          </article>
 
-        {/* .NET */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-plain.svg" />
-            }
-          />
-          <p>.NET</p>
-        </article>
+          {/* .NET */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-plain.svg" />
+              }
+            />
+            <p className={styles.techTitle}>.NET</p>
+          </article>
 
-        {/* MongoDB */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-            }
-          />
-          <p>MongoDB</p>
-        </article>
+          {/* MongoDB */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+              }
+            />
+            <p className={styles.techTitle}>MongoDB</p>
+          </article>
 
-        {/* PostgreSQL */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-            }
-          />
-          <p>PostgreSQL</p>
-        </article>
+          {/* PostgreSQL */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+              }
+            />
+            <p className={styles.techTitle}>PostgreSQL</p>
+          </article>
 
-        {/* Azure */}
-        <article>
-          <TechIcon
-            techIcon={
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-plain.svg" />
-            }
-          />
-          <p>Azure</p>
-        </article>
+          {/* Azure */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-plain.svg" />
+              }
+            />
+            <p className={styles.techTitle}>Azure</p>
+          </article>
+
+          {/* Jest */}
+          <article className={styles.tech}>
+            <TechIcon
+              techIcon={
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" />
+              }
+            />
+            <p className={styles.techTitle}>Jest</p>
+          </article>
+        </section>
       </section>
     </>
   );
