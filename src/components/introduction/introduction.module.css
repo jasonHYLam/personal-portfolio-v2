@@ -11,3 +11,11 @@
 .accent {
   color: var(--accent-color);
 }
+
+.bold {
+  color: var(--bold-black);
+}
+
+.textbox {
+  width: 30rem;
+}

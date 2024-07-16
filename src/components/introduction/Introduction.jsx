@@ -8,18 +8,16 @@ export function Introduction() {
           <h1 className={`${styles.large} ${styles.accent}`}>Jason.</h1>
         </p>
         <p>
-          <h1 className={styles.large}>Full-stack web developer </h1>based in
-          London.
+          <h1 className={`${styles.large} ${styles.bold}`}>
+            Full-stack web developer{" "}
+          </h1>
+          based in London.
         </p>
-        <p>
+        <p className={styles.textbox}>
           I recently graduated from the University of Bath studying Civil
-          Engineering.
-        </p>
-        <p>
-          I've been learning full-stack web development with The Odin Project.
-        </p>
-        <p>
-          I'm more experienced with JavaScript but I've recently picked up C#.
+          Engineering. I've been learning full-stack web development with The
+          Odin Project. I'm more experienced with JavaScript but I've recently
+          picked up C#.
         </p>
       </section>
     </>

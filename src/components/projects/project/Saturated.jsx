@@ -39,6 +39,14 @@ export function Saturated() {
               >
                 Backend repo
               </a>
+              <section>
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Canvas API</span>
+                <span>C#</span>
+                <span>ASP.NET</span>
+                <span>Azure</span>
+              </section>
             </section>
           </section>
         </section>
