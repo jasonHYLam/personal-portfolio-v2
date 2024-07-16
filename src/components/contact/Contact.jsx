@@ -6,7 +6,7 @@ import { LinkedinIcon } from "../icons/LinkedinIcon";
 export function Contact() {
   return (
     <>
-      <section>
+      <section className={styles.contactSection}>
         <h1>Contact</h1>
         <p>I'd love to hear from you, do get in touch!</p>
         <section className={styles.links}>
