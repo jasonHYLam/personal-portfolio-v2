@@ -27,7 +27,7 @@ export function Saturated() {
             <section className={styles.techStack}>
               <span>React</span>
               <span>TypeScript</span>
-              <span>Canvas API</span>
+              <span>CanvasAPI</span>
               <span>C#</span>
               <span>ASP.NET</span>
               <span>Azure</span>
