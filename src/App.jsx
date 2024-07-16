@@ -1,5 +1,5 @@
 import "./App.css";
-import { Contact } from "./components/Contact";
+import { Contact } from "./components/contact/Contact";
 import { Introduction } from "./components/introduction/Introduction";
 import { TechStack } from "./components/techStack/TechStack";
 import { ProjectsList } from "./components/projects/ProjectsList";
