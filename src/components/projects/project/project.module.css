@@ -6,6 +6,7 @@
 .projectContents {
   display: flex;
   margin-bottom: 5rem;
+  gap: 1rem;
 }
 
 .informationContainer {

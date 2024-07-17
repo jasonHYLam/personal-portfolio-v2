@@ -26,11 +26,15 @@ export function Saturated() {
                 image.
               </p>
               <p>
-                I built this after being frustrated with existing services for
-                doing art studies, including Notion and Photoshop. It's designed
-                to be simple to create and read notes on top of images, and a
-                platform to access and keep learning from your studies, wherever
-                you are.
+                As a hobby artist, I built this after being frustrated with
+                existing services for doing art studies, including Notion and
+                Photoshop. Some issues I faced included a lack of image
+                interactivity, being clunky to write notes and impossible to
+                access outside of the software. I solved these problems by
+                developing Saturated; it's designed to be simple to create and
+                read notes on top of images, as well as acting as a platform to
+                access and keep learning from your studies, from the web
+                wherever you are.
               </p>
               <p>Check it out if you want to upgrade your art skills!</p>
             </section>
