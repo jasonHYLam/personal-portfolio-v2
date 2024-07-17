@@ -5,7 +5,6 @@ import { TechStack } from "./components/techStack/TechStack";
 import { ProjectsList } from "./components/projects/ProjectsList";
 import { Navbar } from "./components/navbar/Navbar";
 import { useRef } from "react";
-import { forwardRef } from "react";
 
 function App() {
   const aboutSectionRef = useRef(null);
@@ -13,7 +12,11 @@ function App() {
   const contactSectionRef = useRef(null);
   return (
     <>
-      <Navbar />
+      <Navbar
+        aboutSectionRef={aboutSectionRef}
+        projectsSectionRef={projectsSectionRef}
+        contactSectionRef={contactSectionRef}
+      />
 
       <Introduction />
       <TechStack />

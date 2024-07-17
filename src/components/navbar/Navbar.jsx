@@ -1,6 +1,10 @@
 import styles from "./navbar.module.css";
 
-export function Navbar() {
+export function Navbar({
+  aboutSectionRef,
+  projectsSectionRef,
+  contactSectionRef,
+}) {
   return (
     <>
       <nav className={styles.navbar}>
