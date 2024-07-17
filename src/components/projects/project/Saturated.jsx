@@ -7,7 +7,7 @@ export function Saturated() {
   return (
     <>
       <section className={styles.projectContainer}>
-        <h3 className={styles.subtext}>Featured project (^.^)</h3>
+        <h3 className={styles.subtext}>Featured project!</h3>
         <h2>Saturated (Education art web app)</h2>
 
         <a href="https://saturated.netlify.app/login" target="_blank">
@@ -18,11 +18,20 @@ export function Saturated() {
           <section className={styles.informationContainer}>
             <section>
               <p>
-                An educational art app to help artists improve their
-                observational skills and expand their visual library. Features
-                image analysis using Canvas API, creating notes, and the ability
-                to tag notes onto the image.
+                An educational art web app to help artists improve their
+                observational skills and expand their visual library. It
+                features image analysis via Canvas API, creating notes with the
+                option to guess colors, and the ability to tag notes onto the
+                image.
               </p>
+              <p>
+                I built this after being frustrated with existing services for
+                doing art studies, including Notion and Photoshop. It's designed
+                to be simple to create and read notes on top of images, and a
+                platform to access and keep learning from your studies, wherever
+                you are.
+              </p>
+              <p>Check it out if you want to upgrade your art skills!</p>
             </section>
 
             <section className={styles.techStack}>
