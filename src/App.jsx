@@ -21,7 +21,7 @@ function App() {
       <Introduction />
       <TechStack />
       <ProjectsList ref={projectsSectionRef} />
-      <Contact />
+      <Contact ref={contactSectionRef} />
     </>
   );
 }
