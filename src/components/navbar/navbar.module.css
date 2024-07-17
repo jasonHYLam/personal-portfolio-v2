@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  justify-content: flex-end;
   background-color: white;
   width: 100%;
   position: fixed;
@@ -14,7 +15,12 @@
   height: 2rem;
   gap: 2rem;
   background-color: white;
+}
+
+.navbar > p {
   color: var(--sub-accent-color);
+  align-self: center;
+  transition: color 0.3s;
 }
 
 .navbar > p:hover {

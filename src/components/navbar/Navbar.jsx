@@ -18,6 +18,8 @@ export function Navbar({
           <p onClick={() => contactSectionRef.current.scrollIntoView()}>
             3. Contact
           </p>
+
+          <button>Resume</button>
         </nav>
       </header>
     </>
