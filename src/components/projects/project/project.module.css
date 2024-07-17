@@ -70,12 +70,14 @@
   }
 
   .informationContainer {
-    gap: 0.5rem;
+    gap: 1.5rem;
   }
 
   .techStack {
-    flex-direction: column;
-    gap: 0;
+    /* flex-direction: column;
+    gap: 0; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .projectImage {
