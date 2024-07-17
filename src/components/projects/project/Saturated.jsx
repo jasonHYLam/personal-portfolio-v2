@@ -1,4 +1,5 @@
-import saturated1 from "../../../assets/saturated1.png";
+import saturated4 from "../../../assets/saturated4.png";
+
 import saturatedLogo from "../../../assets/SaturatedLogo.png";
 import styles from "./project.module.css";
 import { OpenInNewIcon } from "../../icons/OpenInNewIcon";
@@ -14,7 +15,7 @@ export function Saturated() {
           <img className={styles.logo} src={saturatedLogo} alt="" />
         </a>
         <section className={styles.projectContents}>
-          <img className={styles.projectImage} src={saturated1} alt="" />
+          <img className={styles.projectImage} src={saturated4} alt="" />
           <section className={styles.informationContainer}>
             <section className={styles.description}>
               <p>

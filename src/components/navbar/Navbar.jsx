@@ -8,10 +8,10 @@ export function Navbar({
   return (
     <>
       <nav className={styles.navbar}>
-        <p onClick={() => aboutSectionRef.current.scrollIntoView()}>About</p>
         <p onClick={() => projectsSectionRef.current.scrollIntoView()}>
           Projects
         </p>
+        <p onClick={() => aboutSectionRef.current.scrollIntoView()}>About</p>
         <p onClick={() => contactSectionRef.current.scrollIntoView()}>
           Contact
         </p>
