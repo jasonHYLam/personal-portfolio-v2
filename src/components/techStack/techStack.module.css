@@ -19,3 +19,11 @@
 .techTitle {
   color: var(--sub-text-color);
 }
+
+@media screen and (max-width: 500px) {
+  .techStack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+}
