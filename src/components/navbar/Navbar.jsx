@@ -1,4 +1,5 @@
 import styles from "./navbar.module.css";
+import resume from "../../assets/jason_lam_resume.pdf";
 
 export function Navbar({
   aboutSectionRef,
@@ -19,7 +20,11 @@ export function Navbar({
             3. Contact
           </p>
 
-          <button>Resume</button>
+          <button>
+            <a href={resume} target="_blank">
+              Resume
+            </a>
+          </button>
         </nav>
       </header>
     </>
