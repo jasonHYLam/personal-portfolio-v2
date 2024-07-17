@@ -9,7 +9,7 @@ import { Tabasco } from "./project/Tabasco";
 export const ProjectsList = forwardRef(function ProjectsList({}, ref) {
   return (
     <>
-      <h1>Projects</h1>
+      <h1 ref={ref}>Projects</h1>
       <section>
         <Saturated />
         <Tabasco />
