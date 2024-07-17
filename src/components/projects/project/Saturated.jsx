@@ -22,8 +22,8 @@ export function Saturated() {
                 An educational art web app to help artists improve their
                 observational skills and expand their visual library. It
                 features image analysis via Canvas API, creating notes with the
-                option to guess colors, and the ability to tag notes onto the
-                image.
+                option to guess colors, and the functionality to tag notes onto
+                the image.
               </p>
               <p>
                 As a hobby artist, I built this after being frustrated with
