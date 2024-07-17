@@ -9,8 +9,15 @@
 
 .links {
   display: flex;
-  gap: 2rem;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  align-items: center;
   margin-top: 5rem;
+  border: 2px solid var(--sub-accent-color);
+  border-radius: 5px;
+  width: 16rem;
+  height: 5rem;
 }
 
 .linkIcon {

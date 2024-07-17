@@ -7,6 +7,8 @@
   color: #213547;
   background-color: #ffffff;
 
+  --main-color: #213547;
+
   --accent-color: rgb(43, 74, 255);
   --sub-accent-color: rgb(46, 168, 255);
   --bold-black: black;
