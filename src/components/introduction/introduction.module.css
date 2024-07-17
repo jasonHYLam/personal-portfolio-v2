@@ -6,7 +6,7 @@
 }
 
 .large {
-  font-size: 4.2rem;
+  font-size: clamp(1.5em, 3.2em, 3.2em) ;
   display: inline;
 }
 
