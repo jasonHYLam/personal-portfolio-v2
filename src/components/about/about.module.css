@@ -1,5 +1,11 @@
 .aboutSection {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+}
+
+.aboutDescription {
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
