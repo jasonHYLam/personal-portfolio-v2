@@ -12,13 +12,13 @@ export const Contact = forwardRef(function Contact({}, ref) {
         <p>I'd love to hear from you, do get in touch!</p>
         <section className={styles.links}>
           <a href="https://github.com/jasonHYLam" target="_blank">
-            <GithubIcon />
+            <GithubIcon size="large" />
           </a>
           <a
             href="https://www.linkedin.com/in/jason-lam-855681194/"
             target="_blank"
           >
-            <LinkedinIcon />
+            <LinkedinIcon size="large" />
           </a>
           <a href={`mailto:${EMAIL}`}>
             <EmailIcon size="large" />

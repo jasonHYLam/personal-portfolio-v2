@@ -1,11 +1,13 @@
 import styles from "./icon.module.css";
-export function GithubIcon() {
+export function GithubIcon({ size }) {
+  let iconStyle = styles.icon;
+  if (size === "large") iconStyle = `${styles.icon} ${styles.large}`;
   return (
     <>
       <svg
         // width="98"
         // height="96"
-        className={styles.icon}
+        className={iconStyle}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 98 96"
       >

@@ -6,4 +6,10 @@
 .large {
   height: 3rem;
   width: 3rem;
+  transition: all 0.2s;
+}
+
+.large:hover {
+  height: 4rem;
+  width: 4rem;
 }
