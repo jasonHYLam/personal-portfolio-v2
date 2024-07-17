@@ -5,6 +5,7 @@ import { TechStack } from "./components/techStack/TechStack";
 import { ProjectsList } from "./components/projects/ProjectsList";
 import { Navbar } from "./components/navbar/Navbar";
 import { useRef } from "react";
+import { About } from "./components/about/About";
 
 function App() {
   const aboutSectionRef = useRef(null);
@@ -21,6 +22,7 @@ function App() {
       <Introduction />
       <TechStack />
       <ProjectsList ref={projectsSectionRef} />
+      <About />
       <Contact ref={contactSectionRef} />
     </>
   );
