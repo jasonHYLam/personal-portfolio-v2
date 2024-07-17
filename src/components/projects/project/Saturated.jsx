@@ -2,12 +2,11 @@ import saturated1 from "../../../assets/saturated1.png";
 import saturatedLogo from "../../../assets/SaturatedLogo.png";
 import styles from "./project.module.css";
 import { OpenInNewIcon } from "../../icons/OpenInNewIcon";
-import { forwardRef } from "react";
 
-export const Saturated = forwardRef(function Saturated({}, ref) {
+export function Saturated() {
   return (
     <>
-      <section className={styles.projectContainer} ref={ref}>
+      <section className={styles.projectContainer}>
         <h3 className={styles.subtext}>Featured project (^.^)</h3>
         <h2>Saturated (Education art web app)</h2>
 
@@ -58,4 +57,4 @@ export const Saturated = forwardRef(function Saturated({}, ref) {
       </section>
     </>
   );
-});
+}
