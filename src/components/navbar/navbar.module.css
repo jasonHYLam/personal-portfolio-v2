@@ -3,10 +3,12 @@
   position: fixed;
   right: 0;
   gap: 2rem;
-  margin-right: 1rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  color: var(--sub-accent-color);
 }
 
 .navbar > p:hover {
   cursor: pointer;
-  
+  color: var(--accent-color);
 }

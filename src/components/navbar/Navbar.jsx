@@ -9,11 +9,11 @@ export function Navbar({
     <>
       <nav className={styles.navbar}>
         <p onClick={() => projectsSectionRef.current.scrollIntoView()}>
-          Projects
+          1. Projects
         </p>
-        <p onClick={() => aboutSectionRef.current.scrollIntoView()}>About</p>
+        <p onClick={() => aboutSectionRef.current.scrollIntoView()}>2. About</p>
         <p onClick={() => contactSectionRef.current.scrollIntoView()}>
-          Contact
+          3. Contact
         </p>
       </nav>
     </>
