@@ -15,8 +15,9 @@ export const About = forwardRef(function About({}, ref) {
           </p>
           <p>
             I discovered full-stack web-development through The Odin Project,
-            have a strong growth mindset having developed many web applications
-            and becoming comfortable with previously unfamiliar technologies.
+            and have a strong growth mindset having developed many web
+            applications and becoming comfortable with previously unfamiliar
+            technologies.
           </p>
           <p>
             I mainly use React and TypeScript for frontend. After predominantly
