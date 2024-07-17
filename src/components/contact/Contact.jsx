@@ -3,10 +3,11 @@ import { EMAIL } from "../../helpers/constants";
 import { GithubIcon } from "../icons/GithubIcon";
 import { EmailIcon } from "../icons/EmailIcon";
 import { LinkedinIcon } from "../icons/LinkedinIcon";
-export function Contact() {
+import { forwardRef } from "react";
+export const Contact = forwardRef(function Contact({}, ref) {
   return (
     <>
-      <section className={styles.contactSection}>
+      <section ref={ref} className={styles.contactSection}>
         <h1>Contact</h1>
         <p>I'd love to hear from you, do get in touch!</p>
         <section className={styles.links}>
@@ -26,4 +27,4 @@ export function Contact() {
       </section>
     </>
   );
-}
+});
