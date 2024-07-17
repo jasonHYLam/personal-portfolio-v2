@@ -12,7 +12,7 @@ export function Saturated() {
           <h3 className={styles.subtext}>Featured project!</h3>
           <h2>
             Saturated{" "}
-            <span className={styles.subtext}>(Education art web app)</span>{" "}
+            <span className={styles.subtext}>(education art web app)</span>{" "}
           </h2>
 
           <a href="https://saturated.netlify.app/login" target="_blank">
