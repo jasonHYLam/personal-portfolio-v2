@@ -21,7 +21,7 @@ export const Contact = forwardRef(function Contact({}, ref) {
             <LinkedinIcon />
           </a>
           <a href={`mailto:${EMAIL}`}>
-            <EmailIcon />
+            <EmailIcon size="large" />
           </a>
         </section>
       </section>
