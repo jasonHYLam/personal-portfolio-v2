@@ -20,9 +20,9 @@ function App() {
       />
 
       <Introduction />
-      <TechStack />
       <ProjectsList ref={projectsSectionRef} />
       <About />
+      <TechStack />
       <Contact ref={contactSectionRef} />
     </>
   );
