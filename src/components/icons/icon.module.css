@@ -9,7 +9,6 @@
   transition: all 0.2s;
 }
 
-.large:hover {
-  height: 4rem;
-  width: 4rem;
+.icon:hover {
+  margin-bottom: 0.5rem;
 }
