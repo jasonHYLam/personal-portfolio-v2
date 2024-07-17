@@ -5,8 +5,9 @@
   height: 2rem;
   position: fixed;
   right: 0;
-  margin-top: 2rem;
-  margin-right: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  z-index: 2;
 }
 
 .navbar {
@@ -20,4 +21,9 @@
 .navbar > p:hover {
   cursor: pointer;
   color: var(--accent-color);
+}
+
+@media screen and (max-width: 500px) {
+
+  
 }
