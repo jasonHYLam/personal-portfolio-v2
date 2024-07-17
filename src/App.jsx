@@ -1,7 +1,6 @@
 import "./App.css";
 import { Contact } from "./components/contact/Contact";
 import { Introduction } from "./components/introduction/Introduction";
-import { TechStack } from "./components/techStack/TechStack";
 import { ProjectsList } from "./components/projects/ProjectsList";
 import { Navbar } from "./components/navbar/Navbar";
 import { useRef } from "react";
@@ -22,7 +21,6 @@ function App() {
       <Introduction />
       <ProjectsList ref={projectsSectionRef} />
       <About ref={aboutSectionRef} />
-      <TechStack />
       <Contact ref={contactSectionRef} />
     </>
   );
