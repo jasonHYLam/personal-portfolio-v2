@@ -16,7 +16,7 @@ export function Saturated() {
         <section className={styles.projectContents}>
           <img className={styles.projectImage} src={saturated1} alt="" />
           <section className={styles.informationContainer}>
-            <section>
+            <section className={styles.description}>
               <p>
                 An educational art web app to help artists improve their
                 observational skills and expand their visual library. It
