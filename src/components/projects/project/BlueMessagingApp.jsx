@@ -7,11 +7,13 @@ export function BlueMessagingApp() {
   return (
     <>
       <section className={styles.projectContainer}>
-        <h2>Blue Messaging App</h2>
-        <section className={styles.projectContents}>
+        <section className={styles.titleContainer}>
+          <h2>Blue Messaging App</h2>
           <a href="https://blue-messaging-app.netlify.app/" target="_blank">
             <img className={styles.logo} src={blueMessagingAppLogo} alt="" />
           </a>
+        </section>
+        <section className={styles.projectContents}>
           <img className={styles.projectImage} src={blueMessagingApp1} alt="" />
           <section className={styles.informationContainer}>
             <p>

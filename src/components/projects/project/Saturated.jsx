@@ -8,15 +8,17 @@ export function Saturated() {
   return (
     <>
       <section className={styles.projectContainer}>
-        <h3 className={styles.subtext}>Featured project!</h3>
-        <h2>
-          Saturated{" "}
-          <span className={styles.subtext}>(Education art web app)</span>{" "}
-        </h2>
+        <section className={styles.titleContainer}>
+          <h3 className={styles.subtext}>Featured project!</h3>
+          <h2>
+            Saturated{" "}
+            <span className={styles.subtext}>(Education art web app)</span>{" "}
+          </h2>
 
-        <a href="https://saturated.netlify.app/login" target="_blank">
-          <img className={styles.logo} src={saturatedLogo} alt="" />
-        </a>
+          <a href="https://saturated.netlify.app/login" target="_blank">
+            <img className={styles.logo} src={saturatedLogo} alt="" />
+          </a>
+        </section>
         <section className={styles.projectContents}>
           <img className={styles.projectImage} src={saturated4} alt="" />
           <section className={styles.informationContainer}>

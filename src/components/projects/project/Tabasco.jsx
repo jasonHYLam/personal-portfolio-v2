@@ -7,14 +7,15 @@ export function Tabasco() {
   return (
     <>
       <section className={styles.projectContainer}>
-        <h2>
-          Tabasco <span className={styles.subtext}>(social media site)</span>{" "}
-        </h2>
-        <section className={styles.projectContents}>
+        <section className={styles.titleContainer}>
+          <h2>
+            Tabasco <span className={styles.subtext}>(social media site)</span>{" "}
+          </h2>
           <a href="https://tabasco.netlify.app/" target="_blank">
             <img className={styles.logo} src={tabascoLogo} alt="" />
           </a>
-
+        </section>
+        <section className={styles.projectContents}>
           <img className={styles.projectImage} src={tabasco1} alt="" />
           <section className={styles.informationContainer}>
             <p>
