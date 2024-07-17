@@ -1,8 +1,10 @@
 import styles from "./icon.module.css";
-export function EmailIcon() {
+export function EmailIcon({ size }) {
+  let iconStyle = styles.icon;
+  if (size === "large") iconStyle = `${styles.icon} ${styles.large}`;
   return (
     <svg
-      className={styles.icon}
+      className={iconStyle}
       xmlns="http://www.w3.org/2000/svg"
       // height="24px"
       // width="24px"
