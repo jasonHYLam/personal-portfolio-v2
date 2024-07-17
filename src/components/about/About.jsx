@@ -1,7 +1,9 @@
-export function About() {
+import { forwardRef } from "react";
+
+export const About = forwardRef(function About({}, ref) {
   return (
     <>
-      <section>
+      <section ref={ref}>
         <h1>About me</h1>
         <p>
           I'm based in London. I've recently graduated with an upper 2:1
@@ -15,4 +17,4 @@ export function About() {
       </section>
     </>
   );
-}
+});

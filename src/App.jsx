@@ -21,7 +21,7 @@ function App() {
 
       <Introduction />
       <ProjectsList ref={projectsSectionRef} />
-      <About />
+      <About ref={aboutSectionRef} />
       <TechStack />
       <Contact ref={contactSectionRef} />
     </>
