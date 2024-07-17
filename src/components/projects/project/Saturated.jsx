@@ -9,7 +9,10 @@ export function Saturated() {
     <>
       <section className={styles.projectContainer}>
         <h3 className={styles.subtext}>Featured project!</h3>
-        <h2>Saturated (Education art web app)</h2>
+        <h2>
+          Saturated{" "}
+          <span className={styles.subtext}>(Education art web app)</span>{" "}
+        </h2>
 
         <a href="https://saturated.netlify.app/login" target="_blank">
           <img className={styles.logo} src={saturatedLogo} alt="" />
