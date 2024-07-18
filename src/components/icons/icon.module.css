@@ -1,12 +1,13 @@
 .icon {
   height: 1.6rem;
   width: 1.6rem;
+  transition: all 0.2s;
   }
 
 .large {
   height: 3rem;
   width: 3rem;
-  transition: all 0.2s;
+  color: var(--accent-color);
 }
 
 .icon:hover {
