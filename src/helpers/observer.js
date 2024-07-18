@@ -1,10 +1,22 @@
-export function createObserver(target) {
+export function createObserver(targets) {
+  console.log(targets);
+  if (!targets) return;
   const options = {
     root: null,
     rootMargin: "0px",
     threshold: 1.0,
   };
 
-  const observer = new IntersectionObserver(() => {}, options);
-  observer.observe(target);
+  function showElement(entries, observer) {
+    console.log("swag");
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        console.log("cool");
+      }
+    });
+  }
+
+  const observer = new IntersectionObserver(showElement, options);
+  observer.observe(targets);
+  return observer;
 }
