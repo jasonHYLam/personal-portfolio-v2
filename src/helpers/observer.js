@@ -17,6 +17,7 @@ export function createObserver(targets) {
   }
 
   const observer = new IntersectionObserver(showElement, options);
-  observer.observe(targets);
+  targets.forEach((element) => observer.observe(element));
+
   return observer;
 }
