@@ -14,7 +14,13 @@ function App() {
   const projectsSectionRef = useRef(null);
   const contactSectionRef = useRef(null);
 
-  useObserver([aboutSectionRef, projectsSectionRef, contactSectionRef]);
+  useObserver([
+    navbarRef,
+    introductionSectionRef,
+    aboutSectionRef,
+    projectsSectionRef,
+    contactSectionRef,
+  ]);
   return (
     <>
       <Navbar
