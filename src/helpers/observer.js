@@ -4,13 +4,14 @@ export function createObserver(targets) {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.1,
+    threshold: 0.5,
   };
 
   function showElement(entries, observer) {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.style.visibility = "visible";
+        // entry.target.style.visibility = "visible";
+        entry.target.classList.add("visible");
       }
     });
   }

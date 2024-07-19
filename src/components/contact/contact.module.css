@@ -5,7 +5,8 @@
   padding-top: 10rem;
   padding-bottom: 10rem;
   min-height: 100svh;
-  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in 0.8s;
 }
 
 .links {

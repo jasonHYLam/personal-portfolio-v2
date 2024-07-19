@@ -77,3 +77,7 @@ button:hover {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
+
+.visible {
+  opacity: 1;
+}

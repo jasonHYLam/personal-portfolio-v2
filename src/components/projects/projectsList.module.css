@@ -4,5 +4,6 @@
 
 .projectsListSection {
   padding-top: 5rem;
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity ease-in 0.3s;
 }
