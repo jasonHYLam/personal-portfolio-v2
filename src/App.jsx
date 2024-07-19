@@ -8,6 +8,8 @@ import { About } from "./components/about/About";
 import { useObserver } from "./helpers/hooks";
 
 function App() {
+  const navbarRef = useRef(null);
+  const introductionSectionRef = useRef(null);
   const aboutSectionRef = useRef(null);
   const projectsSectionRef = useRef(null);
   const contactSectionRef = useRef(null);
@@ -16,12 +18,13 @@ function App() {
   return (
     <>
       <Navbar
+        ref={navbarRef}
         aboutSectionRef={aboutSectionRef}
         projectsSectionRef={projectsSectionRef}
         contactSectionRef={contactSectionRef}
       />
 
-      <Introduction />
+      <Introduction ref={introductionSectionRef} />
       <ProjectsList ref={projectsSectionRef} />
       <About ref={aboutSectionRef} />
       <Contact ref={contactSectionRef} />

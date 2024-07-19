@@ -1,8 +1,9 @@
+import { forwardRef } from "react";
 import styles from "./introduction.module.css";
-export function Introduction() {
+export const Introduction = forwardRef(function Introduction({}, ref) {
   return (
     <>
-      <section className={styles.introduction}>
+      <section ref={ref} className={styles.introduction}>
         <h2>Hello, I'm</h2>
         <h1 className={`${styles.large} ${styles.accent}`}>Jason Lam.</h1>
         <h1 className={`${styles.large} ${styles.bold}`}>
@@ -13,4 +14,4 @@ export function Introduction() {
       </section>
     </>
   );
-}
+});

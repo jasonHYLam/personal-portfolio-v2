@@ -1,14 +1,14 @@
 import styles from "./navbar.module.css";
 import resume from "../../assets/jason_lam_resume.pdf";
+import { forwardRef } from "react";
 
-export function Navbar({
-  aboutSectionRef,
-  projectsSectionRef,
-  contactSectionRef,
-}) {
+export const Navbar = forwardRef(function Navbar(
+  { aboutSectionRef, projectsSectionRef, contactSectionRef },
+  ref
+) {
   return (
     <>
-      <header className={styles.header}>
+      <header ref={ref} className={styles.header}>
         <nav className={styles.navbar}>
           <p onClick={() => projectsSectionRef.current.scrollIntoView()}>
             1. Projects
@@ -29,4 +29,4 @@ export function Navbar({
       </header>
     </>
   );
-}
+});
