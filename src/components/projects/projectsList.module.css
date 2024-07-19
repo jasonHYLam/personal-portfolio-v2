@@ -4,4 +4,5 @@
 
 .projectsListSection {
   padding-top: 5rem;
+  visibility: hidden;
 }
