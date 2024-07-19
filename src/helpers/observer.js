@@ -1,5 +1,4 @@
 export function createObserver(targets) {
-  console.log(targets);
   if (!targets) return;
   const options = {
     root: null,
@@ -18,6 +17,7 @@ export function createObserver(targets) {
     });
   }
 
+  console.log(targets);
   const observer = new IntersectionObserver(showElement, options);
   targets.forEach((element) => observer.observe(element));
 
