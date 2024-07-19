@@ -10,6 +10,7 @@ export function createObserver(targets) {
   function showElement(entries, observer) {
     console.log("swag");
     entries.forEach((entry) => {
+      console.log(entry);
       if (entry.isIntersecting) {
         console.log("cool");
       }

@@ -14,9 +14,9 @@ function App() {
 
   useEffect(() => {
     createObserver([
-      aboutSectionRef.current,
+      // aboutSectionRef.current,
       projectsSectionRef.current,
-      contactSectionRef.current,
+      // contactSectionRef.current,
     ]);
   }, []);
   return (

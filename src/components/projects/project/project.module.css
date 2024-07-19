@@ -28,10 +28,11 @@
   position: absolute;
   right: 0;
   top: 0;
+  filter: drop-shadow(0 0 1.5em var(--accent-color));
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em var(--accent-color));
+  filter: drop-shadow(0 0 3em var(--accent-color));
 }
 
 .linkIcon {
